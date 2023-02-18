@@ -1,10 +1,12 @@
 package com.zhadko.superGame.ui.splashScreen
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.NavOptions
 import androidx.navigation.fragment.findNavController
+import com.jetgame.tetris.MainActivity
 import com.zhadko.superGame.R
 import com.zhadko.superGame.base.BaseFragment
 import com.zhadko.superGame.databinding.LayoutFragmentSplashBinding
@@ -33,6 +35,7 @@ class SplashFragment : BaseFragment<LayoutFragmentSplashBinding>(
                     navigateToWebView()
                 } else {
                     navigateToGame()
+                    requireActivity().finish()
                 }
             }
         }
@@ -48,6 +51,6 @@ class SplashFragment : BaseFragment<LayoutFragmentSplashBinding>(
     }
 
     private fun navigateToGame() {
-//        findNavController().navigate()
+        startActivity(Intent(requireActivity(), MainActivity::class.java))
     }
 }

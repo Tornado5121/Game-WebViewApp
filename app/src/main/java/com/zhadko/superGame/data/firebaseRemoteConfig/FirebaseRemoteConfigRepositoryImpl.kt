@@ -12,7 +12,7 @@ class FirebaseRemoteConfigRepositoryImpl(private val context: Context) :
 
     private val remoteConfig: FirebaseRemoteConfig = Firebase.remoteConfig
     private val configSettings = remoteConfigSettings {
-        minimumFetchIntervalInSeconds = 3600
+        minimumFetchIntervalInSeconds = 0
     }
 
     init {
