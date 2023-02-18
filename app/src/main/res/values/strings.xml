@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SuperGame</string>
+    <string name="internet_connection_warning">Internet connection was lost</string>
 </resources>

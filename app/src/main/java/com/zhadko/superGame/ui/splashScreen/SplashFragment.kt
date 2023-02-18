@@ -26,6 +26,7 @@ class SplashFragment : BaseFragment<LayoutFragmentSplashBinding>(
     }
 
     private fun setupView() {
+        binding.imageView2.setImageResource(R.drawable.ic_wwl_logo)
     }
 
     private fun setupObservers() {

@@ -4,6 +4,7 @@ import com.zhadko.superGame.data.firebaseRealtimeDatabase.FirebaseRealtimeDataba
 import com.zhadko.superGame.data.firebaseRealtimeDatabase.FirebaseRealtimeDatabaseRepositoryImpl
 import com.zhadko.superGame.data.firebaseRemoteConfig.FirebaseRemoteConfigRepository
 import com.zhadko.superGame.data.firebaseRemoteConfig.FirebaseRemoteConfigRepositoryImpl
+import com.zhadko.superGame.ui.MainViewModel
 import com.zhadko.superGame.ui.splashScreen.SplashViewModel
 import com.zhadko.superGame.ui.webViewScreen.WebViewViewModel
 import org.koin.android.ext.koin.androidContext
@@ -19,4 +20,5 @@ val dataModule = module {
 val viewModelModule = module {
     viewModel { SplashViewModel(get()) }
     viewModel { WebViewViewModel(get()) }
+    viewModel { MainViewModel(androidContext()) }
 }
