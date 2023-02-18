@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "593974984825",
+    "project_id": "supergame-c3062",
+    "storage_bucket": "supergame-c3062.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593974984825:android:9d25b01347bdd771f754a8",
+        "android_client_info": {
+          "package_name": "com.zhadko.superGame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593974984825-qimiv8sn3f99uhlc6gf28k8n4ekfe79k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDauUqRLhV8S2mF07cA6egkyMwlIAZiycA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593974984825-qimiv8sn3f99uhlc6gf28k8n4ekfe79k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
